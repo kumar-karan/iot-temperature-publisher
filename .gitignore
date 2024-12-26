@@ -1,0 +1,19 @@
+# Certificates and sensitive files
+certs/
+*.pem
+*.key
+
+# Environment variables
+.env
+
+# CSV data files
+data/
+*.csv
+
+# AWS IoT SDK
+aws-iot-device-sdk-python-v2/
+
+# Python caches and logs
+__pycache__/
+*.pyc
+*.log
